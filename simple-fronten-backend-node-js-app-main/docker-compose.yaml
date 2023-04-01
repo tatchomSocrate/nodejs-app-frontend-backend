@@ -1,0 +1,9 @@
+---
+version: "3"
+services:
+  backend:
+    build: node_backend
+  frontend:
+    build: web_frontend
+    ports:
+      - 808:80
